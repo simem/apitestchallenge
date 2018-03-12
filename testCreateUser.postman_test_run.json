@@ -1,0 +1,422 @@
+{
+	"id": "0062520d-0413-4753-b580-af4db97a9784",
+	"name": "Drawboard Test Create User",
+	"allTests": [],
+	"timestamp": "2018-03-12T08:46:09.452Z",
+	"collection_id": "75063a04-ad56-4174-85b8-beee6e442e39",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "ee7d7bf7-74ce-1a44-98ae-0a71dacfeea0",
+	"data": [],
+	"delay": 0,
+	"count": 16,
+	"collection": {
+		"id": "75063a04-ad56-4174-85b8-beee6e442e39",
+		"name": "Drawboard Test Create User",
+		"description": "",
+		"auth": null,
+		"events": null,
+		"variables": null,
+		"order": [
+			"8d283e57-a31c-42b4-9e94-58369c014b0f",
+			"c0929cf1-928c-451a-8164-f55947738532"
+		],
+		"folders_order": [],
+		"owner": "347506",
+		"permissions": {},
+		"favorite": true,
+		"shared": false,
+		"type": "collection",
+		"depth": 0
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "Get Drawboard Access Token",
+			"id": "8d283e57-a31c-42b4-9e94-58369c014b0f",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status Code is 200",
+				"status": "pass"
+			},
+			"testPassFailCounts": {
+				"Status Code is 200": {
+					"pass": 16,
+					"fail": 0
+				}
+			},
+			"times": [
+				"1260",
+				"1099",
+				"1107",
+				"1107",
+				"1002",
+				"1126",
+				"1015",
+				"965",
+				"1034",
+				"1075",
+				"1071",
+				"1059",
+				"996",
+				"1066",
+				"1228",
+				"1196"
+			],
+			"allTests": [
+				{
+					"Status Code is 200": true
+				},
+				{
+					"name": "Status Code is 200",
+					"status": "pass"
+				},
+				{
+					"name": "Status Code is 200",
+					"status": "pass"
+				},
+				{
+					"name": "Status Code is 200",
+					"status": "pass"
+				},
+				{
+					"name": "Status Code is 200",
+					"status": "pass"
+				},
+				{
+					"name": "Status Code is 200",
+					"status": "pass"
+				},
+				{
+					"name": "Status Code is 200",
+					"status": "pass"
+				},
+				{
+					"name": "Status Code is 200",
+					"status": "pass"
+				},
+				{
+					"name": "Status Code is 200",
+					"status": "pass"
+				},
+				{
+					"name": "Status Code is 200",
+					"status": "pass"
+				},
+				{
+					"name": "Status Code is 200",
+					"status": "pass"
+				},
+				{
+					"name": "Status Code is 200",
+					"status": "pass"
+				},
+				{
+					"name": "Status Code is 200",
+					"status": "pass"
+				},
+				{
+					"name": "Status Code is 200",
+					"status": "pass"
+				},
+				{
+					"name": "Status Code is 200",
+					"status": "pass"
+				},
+				{
+					"name": "Status Code is 200",
+					"status": "pass"
+				}
+			],
+			"time": "1196",
+			"totalRequestTime": "12601099110711071002112610159651034107510711059996106612281196",
+			"iterationResults": {}
+		},
+		{
+			"name": "Create user Copy",
+			"id": "c0929cf1-928c-451a-8164-f55947738532",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"tests": {
+				"name": "All spaces, correct length",
+				"status": "pass"
+			},
+			"testPassFailCounts": {
+				"Mismatching valid length": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Mismatching invalid length": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Matching invalid length": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Matching invalid length exactly 7": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Matching invalid length exactly 8, all chars": {
+					"pass": 1,
+					"fail": 0
+				},
+				"No length": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Very long Greater than 128": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Very long Greater exactly 128": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Very long Greater exactly 129": {
+					"pass": 1,
+					"fail": 0
+				},
+				"All numbers valid length": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Symbols valid length": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Nonsense": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Matching but different case": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Null": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Boolean": {
+					"pass": 1,
+					"fail": 0
+				},
+				"All spaces, correct length": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"32",
+				"43",
+				"47",
+				"22",
+				"4364",
+				"15",
+				"18",
+				"3070",
+				"13",
+				"3335",
+				"2983",
+				"2890",
+				"14",
+				"18",
+				"79",
+				"14"
+			],
+			"allTests": [
+				{
+					"Mismatching valid length": true
+				},
+				{
+					"name": "Mismatching invalid length",
+					"status": "pass"
+				},
+				{
+					"name": "Matching invalid length",
+					"status": "pass"
+				},
+				{
+					"name": "Matching invalid length exactly 7",
+					"status": "pass"
+				},
+				{
+					"name": "Matching invalid length exactly 8, all chars",
+					"status": "pass"
+				},
+				{
+					"name": "No length",
+					"status": "pass"
+				},
+				{
+					"name": "Very long Greater than 128",
+					"status": "pass"
+				},
+				{
+					"name": "Very long Greater exactly 128",
+					"status": "pass"
+				},
+				{
+					"name": "Very long Greater exactly 129",
+					"status": "pass"
+				},
+				{
+					"name": "All numbers valid length",
+					"status": "pass"
+				},
+				{
+					"name": "Symbols valid length",
+					"status": "pass"
+				},
+				{
+					"name": "Nonsense",
+					"status": "pass"
+				},
+				{
+					"name": "Matching but different case",
+					"status": "pass"
+				},
+				{
+					"name": "Null",
+					"status": "pass"
+				},
+				{
+					"name": "Boolean",
+					"status": "pass"
+				},
+				{
+					"name": "All spaces, correct length",
+					"status": "pass"
+				}
+			],
+			"time": "14",
+			"totalRequestTime": "324347224364151830701333352983289014187914",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 32,
+	"totalFail": 0,
+	"totalTime": 34363,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "Get Drawboard Access Token",
+			"id": "8d283e57-a31c-42b4-9e94-58369c014b0f",
+			"url": "https://sandbox.bullclip.com/api/v1/auth/login",
+			"time": "1196",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status Code is 200": {
+					"pass": 16,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Create user Copy",
+			"id": "c0929cf1-928c-451a-8164-f55947738532",
+			"url": "https://sandbox.bullclip.com/api/v1/user/create",
+			"time": "14",
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"testPassFailCounts": {
+				"Mismatching valid length": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Mismatching invalid length": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Matching invalid length": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Matching invalid length exactly 7": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Matching invalid length exactly 8, all chars": {
+					"pass": 1,
+					"fail": 0
+				},
+				"No length": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Very long Greater than 128": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Very long Greater exactly 128": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Very long Greater exactly 129": {
+					"pass": 1,
+					"fail": 0
+				},
+				"All numbers valid length": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Symbols valid length": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Nonsense": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Matching but different case": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Null": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Boolean": {
+					"pass": 1,
+					"fail": 0
+				},
+				"All spaces, correct length": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		}
+	],
+	"synced": false
+}

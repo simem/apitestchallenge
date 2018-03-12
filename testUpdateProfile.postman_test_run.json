@@ -1,0 +1,651 @@
+{
+	"id": "86aece38-a096-4fd9-bde7-79cab95cdcc4",
+	"name": "Drawboard Test Update Profile",
+	"allTests": [],
+	"timestamp": "2018-03-12T10:01:25.863Z",
+	"collection_id": "a414e998-bca1-4249-b003-7c1cbf3aa65b",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "ee7d7bf7-74ce-1a44-98ae-0a71dacfeea0",
+	"data": [],
+	"delay": 0,
+	"count": 24,
+	"collection": {
+		"id": "a414e998-bca1-4249-b003-7c1cbf3aa65b",
+		"name": "Drawboard Test Update Profile",
+		"description": "",
+		"auth": null,
+		"events": null,
+		"variables": null,
+		"order": [
+			"4f5b117a-9588-4645-8bb8-926b01be39f7",
+			"009ead68-c6df-49a4-8307-55bda7649604",
+			"37f53d19-e2fc-4bd2-8fa1-33263c813bf0"
+		],
+		"folders_order": [],
+		"owner": "347506",
+		"permissions": {},
+		"favorite": true,
+		"shared": false,
+		"type": "collection",
+		"depth": 0
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "Get Drawboard Access Token",
+			"id": "4f5b117a-9588-4645-8bb8-926b01be39f7",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Status Code is 200",
+				"status": "pass"
+			},
+			"testPassFailCounts": {
+				"Status Code is 200": {
+					"pass": 24,
+					"fail": 0
+				}
+			},
+			"times": [
+				"2293",
+				"1175",
+				"1081",
+				"1006",
+				"1099",
+				"1173",
+				"1096",
+				"1096",
+				"1147",
+				"1072",
+				"1090",
+				"1095",
+				"1112",
+				"1109",
+				"1192",
+				"1175",
+				"1115",
+				"1119",
+				"1106",
+				"1069",
+				"1088",
+				"1109",
+				"1113",
+				"1101"
+			],
+			"allTests": [
+				{
+					"Status Code is 200": true
+				},
+				{
+					"name": "Status Code is 200",
+					"status": "pass"
+				},
+				{
+					"name": "Status Code is 200",
+					"status": "pass"
+				},
+				{
+					"name": "Status Code is 200",
+					"status": "pass"
+				},
+				{
+					"name": "Status Code is 200",
+					"status": "pass"
+				},
+				{
+					"name": "Status Code is 200",
+					"status": "pass"
+				},
+				{
+					"name": "Status Code is 200",
+					"status": "pass"
+				},
+				{
+					"name": "Status Code is 200",
+					"status": "pass"
+				},
+				{
+					"name": "Status Code is 200",
+					"status": "pass"
+				},
+				{
+					"name": "Status Code is 200",
+					"status": "pass"
+				},
+				{
+					"name": "Status Code is 200",
+					"status": "pass"
+				},
+				{
+					"name": "Status Code is 200",
+					"status": "pass"
+				},
+				{
+					"name": "Status Code is 200",
+					"status": "pass"
+				},
+				{
+					"name": "Status Code is 200",
+					"status": "pass"
+				},
+				{
+					"name": "Status Code is 200",
+					"status": "pass"
+				},
+				{
+					"name": "Status Code is 200",
+					"status": "pass"
+				},
+				{
+					"name": "Status Code is 200",
+					"status": "pass"
+				},
+				{
+					"name": "Status Code is 200",
+					"status": "pass"
+				},
+				{
+					"name": "Status Code is 200",
+					"status": "pass"
+				},
+				{
+					"name": "Status Code is 200",
+					"status": "pass"
+				},
+				{
+					"name": "Status Code is 200",
+					"status": "pass"
+				},
+				{
+					"name": "Status Code is 200",
+					"status": "pass"
+				},
+				{
+					"name": "Status Code is 200",
+					"status": "pass"
+				},
+				{
+					"name": "Status Code is 200",
+					"status": "pass"
+				}
+			],
+			"time": "1101",
+			"totalRequestTime": "229311751081100610991173109610961147107210901095111211091192117511151119110610691088110911131101",
+			"iterationResults": {}
+		},
+		{
+			"name": "Update profile",
+			"id": "009ead68-c6df-49a4-8307-55bda7649604",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Rude",
+				"status": "pass"
+			},
+			"testPassFailCounts": {
+				"No name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Single character name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"No first name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"No last name, like Madonna": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Huge first name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"100 char first name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"101 char first name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Huge last name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"100 char last name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"101 char last name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Name of numbers": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Boolean name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Hyphenated": {
+					"pass": 1,
+					"fail": 0
+				},
+				"lowercase": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Odd slash name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Symbols": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Punctuation and ampersand": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Nonsense": {
+					"pass": 1,
+					"fail": 0
+				},
+				"NaN and Weirdness": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Spaces in name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Foreign characters": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Accented names": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Poetic": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Rude": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"382",
+				"173",
+				"170",
+				"137",
+				"80",
+				"173",
+				"33",
+				"43",
+				"172",
+				"39",
+				"270",
+				"167",
+				"183",
+				"181",
+				"34",
+				"192",
+				"155",
+				"53",
+				"254",
+				"150",
+				"123",
+				"96",
+				"69",
+				"136"
+			],
+			"allTests": [
+				{
+					"No name": true
+				},
+				{
+					"name": "Single character name",
+					"status": "pass"
+				},
+				{
+					"name": "No first name",
+					"status": "pass"
+				},
+				{
+					"name": "No last name, like Madonna",
+					"status": "pass"
+				},
+				{
+					"name": "Huge first name",
+					"status": "pass"
+				},
+				{
+					"name": "100 char first name",
+					"status": "pass"
+				},
+				{
+					"name": "101 char first name",
+					"status": "pass"
+				},
+				{
+					"name": "Huge last name",
+					"status": "pass"
+				},
+				{
+					"name": "100 char last name",
+					"status": "pass"
+				},
+				{
+					"name": "101 char last name",
+					"status": "pass"
+				},
+				{
+					"name": "Name of numbers",
+					"status": "pass"
+				},
+				{
+					"name": "Boolean name",
+					"status": "pass"
+				},
+				{
+					"name": "Hyphenated",
+					"status": "pass"
+				},
+				{
+					"name": "lowercase",
+					"status": "pass"
+				},
+				{
+					"name": "Odd slash name",
+					"status": "pass"
+				},
+				{
+					"name": "Symbols",
+					"status": "pass"
+				},
+				{
+					"name": "Punctuation and ampersand",
+					"status": "pass"
+				},
+				{
+					"name": "Nonsense",
+					"status": "pass"
+				},
+				{
+					"name": "NaN and Weirdness",
+					"status": "pass"
+				},
+				{
+					"name": "Spaces in name",
+					"status": "pass"
+				},
+				{
+					"name": "Foreign characters",
+					"status": "pass"
+				},
+				{
+					"name": "Accented names",
+					"status": "pass"
+				},
+				{
+					"name": "Poetic",
+					"status": "pass"
+				},
+				{
+					"name": "Rude",
+					"status": "pass"
+				}
+			],
+			"time": "136",
+			"totalRequestTime": "3821731701378017333431723927016718318134192155532541501239669136",
+			"iterationResults": {}
+		},
+		{
+			"name": "Get Profile",
+			"id": "37f53d19-e2fc-4bd2-8fa1-33263c813bf0",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {},
+			"times": [
+				"33",
+				"27",
+				"32",
+				"171",
+				"139",
+				"165",
+				"33",
+				"75",
+				"74",
+				"156",
+				"60",
+				"31",
+				"27",
+				"75",
+				"142",
+				"31",
+				"42",
+				"83",
+				"41",
+				"170",
+				"34",
+				"32",
+				"44",
+				"151"
+			],
+			"allTests": [
+				{},
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null
+			],
+			"time": "151",
+			"totalRequestTime": "3327321711391653375741566031277514231428341170343244151",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 48,
+	"totalFail": 0,
+	"totalTime": 33164,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "Get Drawboard Access Token",
+			"id": "4f5b117a-9588-4645-8bb8-926b01be39f7",
+			"url": "https://sandbox.bullclip.com/api/v1/auth/login",
+			"time": "1101",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status Code is 200": {
+					"pass": 24,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Update profile",
+			"id": "009ead68-c6df-49a4-8307-55bda7649604",
+			"url": "https://sandbox.bullclip.com/api/v1/user/profile",
+			"time": "136",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"No name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Single character name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"No first name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"No last name, like Madonna": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Huge first name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"100 char first name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"101 char first name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Huge last name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"100 char last name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"101 char last name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Name of numbers": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Boolean name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Hyphenated": {
+					"pass": 1,
+					"fail": 0
+				},
+				"lowercase": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Odd slash name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Symbols": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Punctuation and ampersand": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Nonsense": {
+					"pass": 1,
+					"fail": 0
+				},
+				"NaN and Weirdness": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Spaces in name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Foreign characters": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Accented names": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Poetic": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Rude": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Get Profile",
+			"id": "37f53d19-e2fc-4bd2-8fa1-33263c813bf0",
+			"url": "https://sandbox.bullclip.com/api/v1/user/profile",
+			"time": "151",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		}
+	],
+	"synced": false
+}
