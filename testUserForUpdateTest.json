@@ -1,0 +1,8 @@
+{
+  "firstName": "TestFirstName",
+  "lastName": "TestLastName",
+  "email": "update1@testuser.com",
+  "password": "password",
+  "confirmPassword": "password",
+  "isOptInForEmail": true
+}

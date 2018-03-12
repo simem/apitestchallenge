@@ -1,0 +1,121 @@
+[{
+    "title": "No name",
+    "firstname": "",
+    "lastname": "",
+	"expectedResponse": 200
+ }, {
+    "title": "Single character name",
+    "firstname": "a",
+    "lastname": "b",
+	"expectedResponse": 200
+ }, {
+    "title": "No first name",
+    "firstname": "",
+    "lastname": "Surname",
+	"expectedResponse": 200
+ }, {
+    "title": "No last name, like Madonna",
+    "firstname": "Madonna",
+    "lastname": "",
+	"expectedResponse": 200
+ }, {
+    "title": "Huge first name",
+    "firstname": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "lastname": "Surname",
+	"expectedResponse": 400
+ }, {
+    "title": "100 char first name",
+    "firstname": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "lastname": "Surname",
+	"expectedResponse": 200
+ }, {
+    "title": "101 char first name",
+    "firstname": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "lastname": "Surname",
+	"expectedResponse": 400
+ }, {
+    "title": "Huge last name",
+    "firstname": "Firstname",
+    "lastname": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+	"expectedResponse": 400
+ }, {
+    "title": "100 char last name",
+    "firstname": "Firstname",
+    "lastname": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+	"expectedResponse": 200
+ }, {
+    "title": "101 char last name",
+    "firstname": "Firstname",
+    "lastname": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+	"expectedResponse": 400
+ }, {
+    "title": "Name of numbers",
+    "firstname": "12345",
+    "lastname": "67890",
+	"expectedResponse": 200
+ }, {
+    "title": "Boolean name",
+    "firstname": true,
+    "lastname": true,
+	"expectedResponse": 200
+ }, {
+    "title": "Hyphenated",
+    "firstname": "Ang-lee",
+    "lastname": "Paul-Mark",
+	"expectedResponse": 200
+ }, {
+    "title": "lowercase",
+    "firstname": "firstname",
+    "lastname": "lastname",
+	"expectedResponse": 200
+ }, {
+    "title": "Odd slash name",
+    "firstname": "Bill/John",
+    "lastname": "Phil/Ron",
+	"expectedResponse": 400
+ }, {
+    "title": "Symbols",
+    "firstname": "!@#$%^&*()",
+    "lastname": "!@#$%^&*()",
+	"expectedResponse": 400
+ }, {
+    "title": "Punctuation and ampersand",
+    "firstname": "!.',?",
+    "lastname": "K&L",
+	"expectedResponse": 200
+ }, {
+    "title": "Nonsense",
+    "firstname": "❤️ 💔 💌 💕 💞 💓 💗 💖 💘 💝 💟 💜 💛 💚 💙",
+    "lastname": "❤️ 💔 💌 💕 💞 💓 💗 💖 💘 💝 💟 💜 💛 💚 💙",
+	"expectedResponse": 400
+ }, {
+    "title": "NaN and Weirdness",
+    "firstname": "NaN",
+    "lastname": "￾",
+	"expectedResponse": 400
+ }, {
+    "title": "Spaces in name",
+    "firstname": "Mark Anthony",
+    "lastname": "Bill Waterson",
+	"expectedResponse": 200
+ }, {
+    "title": "Foreign characters",
+    "firstname": "和製漢語",
+    "lastname": "部落格",
+	"expectedResponse": 200
+ }, {
+    "title": "Accented names",
+    "firstname": "Renée",
+    "lastname": "Zoë",
+	"expectedResponse": 200
+ }, {
+    "title": "Poetic",
+    "firstname": "Roses are \u001b[0;31mred\u001b[0m, violets are \u001b[0;34mblue. Hope you enjoy terminal hue",
+    "lastname": "But now...\u001b[20Cfor my greatest trick...\u001b[8m",
+	"expectedResponse": 400
+ }, {
+    "title": "Rude",
+    "firstname": "fccc",
+    "lastname": "dccc",
+	"expectedResponse": 200
+}]
